@@ -1,4 +1,4 @@
-# my-dor2
+# my-dot2
 
 <code>:s!my-dor2! !g</code>
 <a id="my-dor2-top"></a>
