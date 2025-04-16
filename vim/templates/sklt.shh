@@ -1,0 +1,32 @@
+#!/bin/bash
+#TEMPLATE 
+TMP_SCRIPT=$(mktemp /tmp/countdown_script.XXXXXX)
+cat << 'EOL' > "$TMP_SCRIPT"
+#!/usr/bin/env bash
+Black='\033[0;30m'
+Red='\033[0;31m'
+Green='\033[0;32m'
+Blue='\033[0;34m'
+Purple='\033[0;35m'
+Cyan='\033[0;36m'
+Yellow='\033[1;33m'
+White='\033[1;37m'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EOL
+/usr/bin/xfce4-terminal --geometry 120x2+0+0 --hide-menubar --hide-scrollbar --hide-borders --zoom=+2 --color-bg=gray --color-text=blue  -e "sudo -u batan bash $TMP_SCRIPT"
+
